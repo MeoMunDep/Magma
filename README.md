@@ -1,0 +1,2 @@
+# Magma
+Auto stake, unstake.
