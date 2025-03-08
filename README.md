@@ -72,11 +72,11 @@ This file controls the bot’s behavior. Below is an example configuration:
   "skipInvalidProxy": false,
   "proxyRotationInterval": 2,
   "delayEachAccount": [1, 1],
-  "timeToRestartAllAccounts": 1,
+  "timeToRestartAllAccounts": 300,
   "howManyAccountsRunInOneTime": 1,
 
-  "howManyAPRMONtoStake": 0.001,
-  "howManyAPRMONtoUnstake": 0.001
+  "howManyMONtoStake": 0.001,
+  "howManyGMAGMAtoUnstake": 0.001
 }
 
 ```
@@ -89,8 +89,8 @@ This file controls the bot’s behavior. Below is an example configuration:
   - `delayEachAccount`: Random delay range (in seconds) between accounts.
   - `timeToRestartAllAccounts`: Time (in seconds) to restart all accounts.
   - `howManyAccountsRunInOneTime`: Number of accounts to run simultaneously.
-  - `howManyAPRMONtoStake`: How many aprmon do you want to stake.
-  - `howManyAPRMONtoUnstake`: How many aprmon do you want to unstake.
+  - `howManyMONtoStake`: How many aprmon do you want to stake.
+  - `howManyGMAGMAtoUnstake`: How many aprmon do you want to unstake.
 
 ### 2. `privateKeys.txt` - 🗂️ User's EVM wallet privatekey
 
