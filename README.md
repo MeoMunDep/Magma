@@ -89,8 +89,8 @@ This file controls the bot’s behavior. Below is an example configuration:
   - `delayEachAccount`: Random delay range (in seconds) between accounts.
   - `timeToRestartAllAccounts`: Time (in seconds) to restart all accounts.
   - `howManyAccountsRunInOneTime`: Number of accounts to run simultaneously.
-  - `howManyMONtoStake`: How many aprmon do you want to stake.
-  - `howManyGMAGMAtoUnstake`: How many aprmon do you want to unstake.
+  - `howManyMONtoStake`: How many gMON do you want to stake.
+  - `howManyGMAGMAtoUnstake`: How many gMON do you want to unstake.
 
 ### 2. `privateKeys.txt` - 🗂️ User's EVM wallet privatekey
 
